@@ -20,3 +20,28 @@ h1 {
 h3 {
   font-size: 1.625rem;
 }
+
+input {
+  height: 3.5rem;
+  width: 70%;
+  font-size: 1rem;
+  text-indent: 10px;
+}
+
+button {
+  height: 3.8rem;
+  width: 30%;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.9) rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.9)
+    )
+    url("assets/bg.jpg");
+}
