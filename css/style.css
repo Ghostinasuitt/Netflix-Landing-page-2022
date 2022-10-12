@@ -54,3 +54,20 @@ header {
   align-items: center;
   border-bottom: 8px solid #222;
 }
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 100vw;
+  flex: 0.5;
+}
+
+.left {
+  margin-left: 2rem;
+}
+
+.left > img {
+  width: 150px;
+  height: 50px;
+}
